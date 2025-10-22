@@ -1,0 +1,23 @@
+{
+    "name": "nginx-crash-course",
+    "version": "1.0.0",
+    "description": "A Node.js application serving a static HTML file, used for load balancing with NGINX.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marceloicampos/nginx-crash-course.git"
+    },
+    "author": "marceloicampos",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/marceloicampos/nginx-crash-course/issues"
+    },
+    "homepage": "https://github.com/marceloicampos/nginx-crash-course#readme",
+    "dependencies": {
+        "express": "^5.1.0",
+        "path": "^0.12.7"
+    }
+}
